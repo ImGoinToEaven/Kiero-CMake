@@ -40,6 +40,9 @@
 # define KIERO_TEXT(text) text
 #endif
 
+#pragma message("KIERO_INCLUDE_D3D11 is set to " KIERO_INCLUDE_D3D11)
+#pragma message("KIERO_USE_MINHOOK is set to " KIERO_USE_MINHOOK)
+
 #define KIERO_ARRAY_SIZE(arr) ((size_t)(sizeof(arr)/sizeof(arr[0])))
 
 static kiero::RenderType::Enum g_renderType = kiero::RenderType::None;
