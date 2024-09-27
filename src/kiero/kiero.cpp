@@ -31,7 +31,7 @@
 #endif
 
 #if KIERO_USE_MINHOOK
-# include "minhook/include/MinHook.h"
+# include "MinHook.h"
 #endif
 
 #ifdef _UNICODE
@@ -39,9 +39,6 @@
 #else
 # define KIERO_TEXT(text) text
 #endif
-
-#pragma message("KIERO_INCLUDE_D3D11 is set to " KIERO_INCLUDE_D3D11)
-#pragma message("KIERO_USE_MINHOOK is set to " KIERO_USE_MINHOOK)
 
 #define KIERO_ARRAY_SIZE(arr) ((size_t)(sizeof(arr)/sizeof(arr[0])))
 
